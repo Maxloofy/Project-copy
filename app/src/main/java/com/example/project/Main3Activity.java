@@ -83,6 +83,8 @@ public class Main3Activity extends AppCompatActivity {
                 final String fullname = mFullname.getText().toString().trim();
                 final String phone = mPhone.getText().toString().trim();
 
+
+
                 if(TextUtils.isEmpty(email)){
                     mEmail.setError("البريد الالكتروني مطلوب");
                     return;
@@ -98,8 +100,9 @@ public class Main3Activity extends AppCompatActivity {
                     return;
 
 
-
                 }
+
+
 
                 progressBar3.setVisibility(View.VISIBLE);
 
@@ -120,6 +123,7 @@ public class Main3Activity extends AppCompatActivity {
                                 @Override
                                 public void onSuccess(Void aVoid) {
                                     Log.d(TAG, "onSuccess: user profile is created for "+userID);
+
                                 }
                             }).addOnFailureListener(new OnFailureListener() {
                                 @Override

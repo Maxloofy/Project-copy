@@ -17,7 +17,7 @@
         android:layout_marginTop="455dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="-502dp"
-        android:text="وصف المسجد"
+        android:text="وصف "
         android:textColor="#000000" />
 
     <Button
@@ -38,7 +38,7 @@
         android:layout_marginTop="343dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="-390dp"
-        android:text="وصف المسجد"
+        android:text="وصف "
         android:textColor="#000000" />
 
     <TextView
@@ -51,7 +51,7 @@
         android:layout_marginTop="430dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="-422dp"
-        android:text="مسجد ٤"
+        android:text="test"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -66,7 +66,7 @@
         android:layout_marginTop="542dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="-534dp"
-        android:text="مسجد ٥"
+        android:text="test"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -97,7 +97,7 @@
         android:layout_marginTop="319dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="-311dp"
-        android:text="مسجد ٣"
+        android:text="test"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -112,7 +112,7 @@
         android:layout_marginTop="232dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="-279dp"
-        android:text="وصف المسجد"
+        android:text="وصف "
         android:textColor="#000000" />
 
     <TextView
@@ -125,7 +125,7 @@
         android:layout_marginTop="566dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="-613dp"
-        android:text="وصف المسجد"
+        android:text="وصف "
         android:textColor="#000000" />
 
     <TextView
@@ -138,7 +138,7 @@
         android:layout_marginTop="208dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="-200dp"
-        android:text="مسجد ٢"
+        android:text="test"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -237,7 +237,7 @@
         android:layout_marginTop="116dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="-163dp"
-        android:text="وصف المسجد"
+        android:text="وصف "
         android:textColor="#000000" />
 
 
@@ -251,7 +251,7 @@
         android:layout_marginTop="92dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="-84dp"
-        android:text="مسجد ١  "
+        android:text="test"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold" />

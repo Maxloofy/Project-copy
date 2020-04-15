@@ -49,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
         progressBar4 = findViewById(R.id.progressBar4);
 
 
+        textView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i3 = new Intent(MainActivity.this, Main3Activity.class);
+                startActivity(i3);
+            }
+        });
+
+
 
 
 
@@ -93,18 +102,13 @@ public class MainActivity extends AppCompatActivity {
                 });
                 progressBar4.setVisibility(View.VISIBLE);
 
+
             }
 
 
         });
 
-        textView5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i3 = new Intent(MainActivity.this, Main3Activity.class);
-                startActivity(i3);
-            }
-        });
+
 
         TextView phone;
 
