@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login1">
+
+    <EditText
+        android:id="@+id/mEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="484dp"
+        android:ems="10"
+        android:hint="البريد الاكتروني"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="369dp"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/mLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="287dp"
+        android:text="دخول" />
+
+    <TextView
+        android:id="@+id/mCreateBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="242dp"
+        android:text="انشاء حساب جديد" />
+</RelativeLayout>

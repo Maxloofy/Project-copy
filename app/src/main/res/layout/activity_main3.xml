@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <EditText
+        android:id="@+id/mFullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="600dp"
+        android:ems="10"
+        android:hint="الاسم الكامل"
+        android:inputType="textPersonName"
+        android:textAlignment="viewEnd" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/ic_charity1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <EditText
+        android:id="@+id/mEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="500dp"
+        android:ems="10"
+        android:hint="البريد الاكتروني"
+        android:inputType="textPersonName"
+        android:textAlignment="viewEnd" />
+
+
+    <EditText
+        android:id="@+id/mPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="400dp"
+        android:ems="10"
+        android:hint="رقم الهاتف"
+        android:inputType="phone"
+        android:textAlignment="viewEnd" />
+
+
+    <EditText
+        android:id="@+id/mConfPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="200dp"
+        android:ems="10"
+        android:hint="تأكيد كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="viewEnd" />
+
+    <EditText
+        android:id="@+id/mPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="viewEnd" />
+
+    <Button
+        android:id="@+id/mRegisterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="118dp"
+        android:text="تسجيل" />
+
+    <TextView
+        android:id="@+id/mLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="95dp"
+        android:text="لديك حساب؟ ادخل هنا"
+        android:textSize="8sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="30dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

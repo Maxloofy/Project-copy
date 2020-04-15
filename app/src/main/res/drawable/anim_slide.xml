@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/donation"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/homeles"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/poor4"/>
+
+
+
+</animation-list>

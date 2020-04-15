@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">"My App"</string>
+    <string name="my_files">my Files</string>
+    <string name="starred">Starred</string>
+    <string name="hello">hello</string>
+    <string name="history">history</string>
+
+    <string-array name="SpinnerRoot">
+
+        <item>الصحة</item>
+        <item>مساجد</item>
+        <item>التعليم</item>
+        <item>القرآن</item>
+
+
+    </string-array>
+
+
+    <string-array name="الصحة">
+        <item>زراعة الاعضاء</item>
+        <item>زراعة الأطراف الصناعية</item>
+        <item>توفير الأدوية و اللقاحات</item>
+    </string-array>
+
+
+    <string-array name="مساجد">
+        <item>بناء مساجد</item>
+        <item>ترميم مساجد</item>
+        <item>رعاية المساجد التراثة</item>
+    </string-array>
+
+
+    <string-array name="التعليم">
+        <item>بناء مدارس و مراكز تعليم</item>
+        <item>طباعة الكتب التعليمية</item>
+        <item>تسجيل الطلبة في الجامعات</item>
+
+    </string-array>
+
+
+    <string-array name="القرآن">
+        <item>تحفيظ القرآن</item>
+        <item>طباعة المصاحف</item>
+        <item>علوم القرآن</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

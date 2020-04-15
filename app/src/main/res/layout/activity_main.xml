@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="475dp"
+        android:drawableRight="@drawable/ic_email"
+        android:ems="10"
+        android:hint="البريد الالكتروني"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/mPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="385dp"
+        android:drawableRight="@drawable/ic_password"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/mLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="301dp"
+        android:text="دخول"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        app:iconTint="#FBFBFB" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="573dp"
+        android:text="تبرعكم"
+        android:textColor="#5DBF51"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="284dp"
+        android:text="انشئ حساب جديد"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginBottom="-569dp"
+        android:text="تواصل معنا:"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="-569dp"
+        android:text="+965 12345678"
+        android:textColor="#5DBF51" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/ic_charity1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="219dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

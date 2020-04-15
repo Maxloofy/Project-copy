@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:id="@+id/Relative">
+
+    <Spinner
+        android:paddingStart="75dp"
+        android:id="@+id/SpSecond"
+        android:layout_width="219dp"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="-300dp"
+        android:backgroundTint="#000000"
+        tools:ignore="RtlSymmetry" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/ic_charity1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Spinner
+        android:paddingStart="110dp"
+        android:textAlignment="center"
+
+        android:id="@+id/spinner"
+        android:theme="@style/CustomSpinnerTheme"
+        android:layout_width="219dp"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="-100dp"
+        android:backgroundTint="#000000"
+        android:fadeScrollbars="false"
+        android:isScrollContainer="false"
+        android:spinnerMode="dropdown"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="-67dp"
+        android:text="اختر الدولة"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+
+        android:id="@+id/SpFirst"
+        android:layout_width="219dp"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="-200dp"
+        android:backgroundTint="#000000"
+        android:entries="@array/SpinnerRoot" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="-167dp"
+        android:text="اختر مجال التبرع"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="-265dp"
+        android:text="المشاريع الخاصة بالمجال"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="-396dp"
+        android:text="اضغط هنا للتبرع"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/anim_slide"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+</RelativeLayout>

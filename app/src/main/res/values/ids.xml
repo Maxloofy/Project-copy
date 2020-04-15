@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bubbleNavigation" type="id" />
+    <item name="Settings" type="id" />
+    <item name="Starred" type="id" />
+    <item name="Home" type="id" />
+</resources>
